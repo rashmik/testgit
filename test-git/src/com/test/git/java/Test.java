@@ -11,6 +11,7 @@ public class Test {
 		System.out.println("successfully created 2nd new branch");
 		System.out.println("one more sysout for checkout testing 11.03AM");
 		System.out.println("one more sysout 11.50AM  from eclipse-1 confused completely :(");
+		System.out.println("Final try 12.48PM");
 	}
 
 }
