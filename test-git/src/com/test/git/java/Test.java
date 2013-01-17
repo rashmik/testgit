@@ -1,5 +1,8 @@
 package com.test.git.java;
 
+import java.text.*;
+import java.util.*;
+
 public class Test {
 
 	/**
@@ -15,6 +18,35 @@ public class Test {
 		System.out.println("final 12.53PM");
 		System.out.println("again final 13.10PM");
 		System.out.println("hello done with all");
+		
+		System.out.println("testing calendar");
+		DateFormat format = new SimpleDateFormat(   
+		        "MMMMM d, yyyy, kk:mm:ss zzz");   
+		           
+		        TimeZone cst = TimeZone.getTimeZone("MST");   
+		        System.out.println(cst.getID());   
+		        System.out.println(cst.getRawOffset());   
+		           
+		        TimeZone utc = TimeZone.getTimeZone("GMT");   
+		        System.out.println(utc.getID());   
+		        System.out.println(utc.getRawOffset());   
+		        
+		        {   
+		            GregorianCalendar gc = new GregorianCalendar(cst);   
+		            Date now = gc.getTime();   
+		            format.setTimeZone(cst);   
+		            System.out.println(format.format(now));   
+		            format.setTimeZone(utc);   
+		            System.out.println(format.format(now));   
+		        }   
+		        {   
+		            GregorianCalendar gc = new GregorianCalendar(utc);   
+		            Date now = gc.getTime();   
+		            format.setTimeZone(cst);   
+		            System.out.println(format.format(now));   
+		            format.setTimeZone(utc);   
+		            System.out.println(format.format(now));   
+		        }
 	}
 
 }
