@@ -16,6 +16,7 @@ public class NewBranch {
 		System.out.println("12.20PM");
 		System.out.println("testing commit from tortise");
 		System.out.println("12.33PM");
+		System.out.println("testing conflicts");
 	}
 
 }
