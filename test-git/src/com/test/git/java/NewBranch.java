@@ -10,6 +10,7 @@ public class NewBranch {
 		System.out.println("adding new file to new branch");
 		System.out.println("New change to new file in new branch");
 		System.out.println("11.18AM");
+		System.out.println("11.20AM");
 	}
 
 }
