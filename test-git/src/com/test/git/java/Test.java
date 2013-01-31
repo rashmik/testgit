@@ -10,6 +10,7 @@ public class Test {
 		System.out.println("hello");
 		
 		System.out.println("This is a master copy branch");
+		System.out.println("testing uncommiting file within same branch and at branch level");
 	}
 
 }
