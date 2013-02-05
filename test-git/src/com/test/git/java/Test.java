@@ -47,6 +47,8 @@ public class Test {
 		            format.setTimeZone(utc);   
 		            System.out.println(format.format(now));   
 		        }
+		        System.out.println("09:43AM");
 	}
+	
 
 }
