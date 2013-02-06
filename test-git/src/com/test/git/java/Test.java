@@ -10,6 +10,7 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		System.out.println("hello new branch 2 -not able to check out new changes - 10.58");
 		System.out.println("successfully created 2nd new branch");
 		System.out.println("one more sysout for checkout testing 11.03AM");
@@ -51,6 +52,11 @@ public class Test {
 		        System.out.println("09:43AM");
 
 		        //extra addition
+
+		System.out.println("hello GIT");
+		System.out.println("merging testing");
+		System.out.println("testing rebase");
+		System.out.println("this is from merge Br 13.25Pm");
 
 	}
 	
