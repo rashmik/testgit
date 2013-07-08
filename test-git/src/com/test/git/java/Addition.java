@@ -5,11 +5,14 @@ public class Addition {
 	/**
 	 * @param args
 	 */
+	
+	public int additionInt(int num1 ,int num2){
+		return (num1+num2);
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("adding new file");
-		System.out.println("09:41AM");
-		System.out.println("testing multiple commits for a single file : 09:43AM");
+		
 		
 	}
 
