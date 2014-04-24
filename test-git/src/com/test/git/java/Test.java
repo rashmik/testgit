@@ -11,6 +11,7 @@ public class Test {
 		
 		System.out.println("This is a master copy branch");
 		System.out.println("testing uncommiting file within same branch and at branch level");
+		System.out.println("Test");
 		System.out.println("12.48Pm");
 	}
 
