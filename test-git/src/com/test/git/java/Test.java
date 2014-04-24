@@ -58,6 +58,8 @@ public class Test {
 		System.out.println("testing rebase");
 		System.out.println("this is from merge Br 13.25Pm");
 		System.out.println("pull conflicts");
+		System.out.println("Merge");	
+
 	}
 	
 
