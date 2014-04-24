@@ -57,7 +57,7 @@ public class Test {
 		System.out.println("merging testing");
 		System.out.println("testing rebase");
 		System.out.println("this is from merge Br 13.25Pm");
-
+		System.out.println("Merge");	
 	}
 	
 
