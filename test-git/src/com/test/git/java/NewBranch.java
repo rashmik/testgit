@@ -9,7 +9,7 @@ public class NewBranch {
 		// TODO Auto-generated method stub
 		System.out.println("adding new file to new branch");
 		System.out.println("New change to new file in new branch");
-
+		System.out.println("adding new file to new branch");
 	}
 
 }
